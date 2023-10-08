@@ -15,7 +15,6 @@ from pandas import DataFrame
 from pandas import concat
 from datetime import datetime
 import matplotlib
-matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import MinMaxScaler
@@ -123,8 +122,7 @@ def make_3D_data(csv_dir, backTime):
     Nfeature = len(df_scaled_features.keys())
     array_feature_rolled_3D = df_scaled_features.values[roll_list].reshape(Nsample_orig - backTime + 1, backTime, Nfeature)
       
-    #- Standardization for label:
-        
+    #- Standardization for label:   
     #array_label_rolled_not_scaled =df_data_temp.MEE.values[backTime-1:].reshape(-1, 1)   
     array_label_rolled_not_scaled =pd.DataFrame(df_data_temp.MEE.values[backTime-1:].reshape(-1, 1) )   
     #y_std = (array_label_rolled_not_scaled-Min_label)/(Max_label-Min_label)
