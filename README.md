@@ -1,12 +1,12 @@
 # Ozone_prediction
 
-##Prepare input data
+## Prepare input data
 
 
-##Model train&test
+## Model train&test
 
 
-##Model predict
+## Model predict
 
 
 
