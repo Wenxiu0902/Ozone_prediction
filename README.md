@@ -11,7 +11,7 @@ Handles rremote sensing near-surface concentration data processing;
 handles rremote sensing total column concentration data processing;
 
 ## Model train&test
-Transform the prepared time series data (input_data file) into sequences suitable for the LSTM model, and proceed with model training and test.
+Transform the prepared time series data (Input_data file) into sequences suitable for the LSTM model, and proceed with model training and test.
 #### LSTM_predict.py
 Train and test the LSTM model to obtain the best model.
 
