@@ -1,4 +1,4 @@
-#author: Xiaoyong Li
+#author: Zhangwenxiu
 #date: 9/2 2020
 #code for conversion OMI...he5 files to GTiff files
 
