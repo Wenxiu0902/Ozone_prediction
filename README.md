@@ -9,9 +9,12 @@ handles rremote sensing data processing;
 
 ## Model train&test
 
-LSTM_predict.py
+### LSTM_predict.py
+Train and test the LSTM model to obtain the best model.
 
 ## Model predict
+### Spatial_Visualization.py
+Spatial visualization of model predictions.
 
 
 
