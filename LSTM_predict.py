@@ -199,8 +199,8 @@ if __name__ == "__main__":
     history = model.fit(train_x, train_label, epochs=50, batch_size=3000, validation_data=(test_x, test_label),callbacks=[reduce_lr], verbose=2, shuffle=True)
 
     #- plot loss curve
-    plt.plot(history.history['loss'], label='train')
-    plt.plot(history.history['val_loss'], label='test')
+    plt.plot(history.history['val_loss'], label='train')
+    plt.plot(history.history['loss'], label='test')
     plt.legend()
     plt.show()
 
